@@ -3,4 +3,5 @@ project(cpp_simple_opengl)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp_simple_opengl main.cpp)
+# Add source folder.
+add_subdirectory(src)
